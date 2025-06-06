@@ -8,13 +8,6 @@ from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from django.contrib.auth import authenticate,login,logout
 from django.contrib.auth.forms import UserCreationForm
-# Create your views here.
-# rooms=[
-#     {'id':1,'name':'Bukkake'},
-#     {'id':2,'name':'Anal'},
-#     {'id':3,'name':'Creampie'},
-# ]
-
 
 def loginPage(request):
     page='login'
